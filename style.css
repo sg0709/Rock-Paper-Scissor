@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(9, 9, 56);
+}
+header{
+    background-color: white;
+    padding: 20px;
+}
+.score-board{
+    border: 3px solid white;
+    margin: 20px auto;
+    padding: 15px 45px 15px 35px;
+    color: white;
+    border-radius: 5px;
+    font-size: 50px;
+    position: relative;
+    display: inline-block;
+    min-width: 200px;
+
+}
+.player-label{
+    background-color: #9e1515;
+    font-size: 20px;
+    padding: 3px 3px;
+    border-radius: 4px;
+}
+#user-label{
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+#comp-label{
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+.move-board{
+    display: inline-block;
+    border: 2px solid white;
+    color: white;
+    margin: 5px 20px 5px 20px;
+}
+.move-board-player{
+    background-color: #9e1515;
+    padding: 2px 2px;
+}
+#lets-play{
+    color: white;
+    font-size: 40px;
+    margin: 30px auto;
+}
+.choice{
+    display: inline-block;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    margin: auto 20px;
+    cursor: pointer;
+}
+.choice:hover
+{
+    background-color: rgb(26, 24, 24);
+    transition: ease 0.3s;
+}
